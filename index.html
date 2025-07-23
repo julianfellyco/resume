@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Julian Fellyco - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    .profile-pic {
+      display: block;
+      margin: 0 auto 20px auto;
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .contact, .skills, .education, .experience, .profile, .references {
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    .social-links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #0077b5;
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #0077b5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #005f8d;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Julian Fellyco</h1>
+    <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-pic" />
+
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p>📞 +61 476 859 207</p>
+      <p>📧 julianfellyco85@gmail.com</p>
+      <p>📍 570 Lygon Street, Carlton, VIC 3053</p>
+    </div>
+
+    <div class="section profile">
+      <h2>Profile</h2>
+      <p>
+        I am 24 years old from Indonesia through Working and Holiday Visa subclass 462.
+        I’m the person who can be relied on and trusted, also known as an honest person.
+        I’m physically fit and able to work under pressure. Also I have good communication skills.
+        Adept at working in fast-paced environments, ensuring quality service, and maintaining
+        a clean and organized workspace. Passionate about culinary arts and continuously learning new cooking techniques.
+      </p>
+    </div>
+
+    <div class="section education">
+      <h2>Education</h2>
+      <p><strong>University Mikroskil</strong> (2018–2022)</p>
+      <p>Bachelor of Informatic Engineering</p>
+    </div>
+
+    <div class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Fast Learner</li>
+        <li>Discipline and Highly Motivated</li>
+        <li>Passionate Work in Any Industry</li>
+        <li>Ability to Work in Team Environment</li>
+        <li>Good English, Fair Chinese and Hokkien, Fluent in Indonesian</li>
+      </ul>
+    </div>
+
+    <div class="section experience">
+      <h2>Work Experience</h2>
+
+      <h3>Kitchen – Mar 2025</h3>
+      <ul>
+        <li>All Rounder (Kitchen, Cashier, Waiter)</li>
+        <li>Dishwasher, Cleaning</li>
+        <li>Monitored inventory and restocked supplies</li>
+        <li>Handled kitchen equipment safely</li>
+        <li>Worked under pressure during peak hours</li>
+        <li>Disposal of rubbish</li>
+      </ul>
+
+      <h3>Facility Cleaner – Mar 2025</h3>
+      <ul>
+        <li>Maintained cleanliness and sanitation</li>
+        <li>Sweeping, mopping, dusting, waste disposal</li>
+        <li>Operated cleaning equipment (vacuums, scrubbers)</li>
+        <li>Followed safety protocols and used cleaning chemicals</li>
+      </ul>
+    </div>
+
+    <div class="section references">
+      <h2>References</h2>
+      <p><strong>Bernhard Liman</strong> – bernhard.liman@yahoo.com</p>
+    </div>
+
+    <div class="section social-links">
+      <h2>Social Links</h2>
+      <a href="https://www.linkedin.com/in/julian-f-097161141/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/julianfellyco" target="_blank">GitHub</a>
+    </div>
+
+    <button onclick="showFact()">Click to see a fun fact about Julian</button>
+  </div>
+
+  <script>
+    function showFact() {
+      const facts = [
+        "Julian can coding and loves to solve problems!",
+        "Julian is a fast learner and adapts quickly to new environments!",
+        "Julian has a goal to reach 1 million dollars by 30!",
+        "Julian is passionate about culinary arts and loves to learn new cooking techniques!",
+      ];
+      const randomIndex = Math.floor(Math.random() * facts.length);
+      alert(facts[randomIndex]);
+    }
+  </script>
+</body>
+</html>
